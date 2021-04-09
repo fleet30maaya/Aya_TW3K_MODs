@@ -115,3 +115,50 @@ root
 ```
 
 目前的修改内容是在 UI 后面加了一个图，然后把部队血条变成了横向矩形条。
+
+## 【工事中】单位兵牌
+
+相关文件：
+
+```text
+ └─┬─ ui
+   └─┬─ campaign ui
+     └─── unit_card.twui.xml
+```
+
+对这个 UI 的简单分析：
+
+```text
+root
+ │
+ └─┬─ unit_card
+   │
+   ├─── gradient
+   ├─┬─ convalescing
+   │ └─── convalescing_timer
+   ├─── replenish
+   ├─┬─ individual_kills
+   │ └─── label_turns_to_muster
+   ├─┬─ element_icon
+   │ └─── rank    < 关注这个
+   │
+   ├─┬─ experience_holder
+   │ ├─── experience
+   │ └─┬─ post_battle_rank
+   │   ├─── old_rank
+   │   └─── new_rank
+   ├─── label_num_entities
+   ├─── label_num_entities_postbattle
+   ├─┬─ health_bar_parent
+   │ ├─── replenishment_bar
+   │ └─┬─ stat_fill_bar
+   │   └─┬─ attrition_bar_parent
+   │     └─── attrition_bar
+   ├─┬─ health_bar_parent_postbattle
+   │ └─── stat_fill_bar_postbattle
+   ├─┬─ refund_overlay
+   │ └─── refund_label
+   └─── turns_to_muster
+```
+
+把 rank 改成了 rank_image。名字不重要，重要的是控件类型。原先是 TextLabel，现在改为响应 ContextStateSetter，按照等级的不同改变图片。由于 fast.pack 里只提供了 1-9 级的图片，10 级使用 5 级的图片并以金色显示。
