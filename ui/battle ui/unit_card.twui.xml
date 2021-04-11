@@ -2891,7 +2891,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context
 					callback_id="ContextStateSetter"
-					context_object_id="CcoCampaignUnit"
+					context_object_id="CcoBattleUnit"
 					context_function_id="ExperienceLevel">
 					<child_m_user_properties>
 						<property
@@ -2899,10 +2899,6 @@
 							value="UnitExperienceGain"/>
 					</child_m_user_properties>
 				</callback_with_context>
-				<callback_with_context
-					callback_id="ContextStateSetter"
-					context_object_id="CcoUnitDetails"
-					context_function_id="ExperienceLevel"/>
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoComponent"
@@ -2992,75 +2988,6 @@
 					value="callbacks"/>
 			</userproperties>
 			<states>
-				<active
-					this="7B7399F0-769A-4397-844EB229B588070A"
-					name="active"
-					width="9"
-					height="24"
-					text="8"
-					textvalign="Center"
-					texthalign="Center"
-					texthbehaviour="Resize"
-					textlabel="rank_NewState_Text_38"
-					font_m_font_name="Numbers"
-					font_m_size="15"
-					font_m_colour="#FFFFFFFF"
-					font_m_leading="1"
-					fontcat_name="numbers"
-					uniqueguid="7B7399F0-769A-4397-844EB229B588070A"/>
-				<inactive
-					this="1A5C482B-D7D1-42D7-9ADBBE6FF6C94F40"
-					name="inactive"
-					width="9"
-					height="24"
-					text="8"
-					textvalign="Center"
-					texthalign="Center"
-					texthbehaviour="Resize"
-					textlabel="rank_NewState_Text_38"
-					font_m_font_name="Numbers"
-					font_m_size="15"
-					font_m_colour="#FFFFFFFF"
-					font_m_leading="1"
-					fontcat_name="numbers"
-					text_shader_name="brighten_t0"
-					textshadervars="-0.50,0.00,0.00,0.00"
-					uniqueguid="1A5C482B-D7D1-42D7-9ADBBE6FF6C94F40"/>
-				<not_selected
-					this="6A1A5DBC-C1C5-4EF3-A7A41955E6EA6B87"
-					name="not_selected"
-					width="9"
-					height="24"
-					text="8"
-					textvalign="Center"
-					texthalign="Center"
-					texthbehaviour="Resize"
-					textlabel="rank_NewState_Text_38"
-					font_m_font_name="Numbers"
-					font_m_size="15"
-					font_m_colour="#FFFFFFFF"
-					font_m_leading="1"
-					fontcat_name="numbers"
-					text_shader_name="brighten_t0"
-					textshadervars="-0.50,0.00,0.00,0.00"
-					uniqueguid="6A1A5DBC-C1C5-4EF3-A7A41955E6EA6B87"/>
-				<not_selected_hover
-					this="A884241B-2385-4079-86D9B83C852B281B"
-					name="not_selected_hover"
-					width="9"
-					height="24"
-					text="8"
-					textvalign="Center"
-					texthalign="Center"
-					texthbehaviour="Resize"
-					textlabel="rank_NewState_Text_38"
-					font_m_font_name="Numbers"
-					font_m_size="15"
-					font_m_colour="#FFFFFFFF"
-					font_m_leading="1"
-					fontcat_name="numbers"
-					textshadervars="0.80,0.00,0.00,0.00"
-					uniqueguid="A884241B-2385-4079-86D9B83C852B281B"/>
 				<_0
 					this="B9B52236-15A1-4B7D-85E206530E571618"
 					name="0"
@@ -3411,7 +3338,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_5>
@@ -3470,7 +3397,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_6>
@@ -3529,7 +3456,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_7>
@@ -3588,7 +3515,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_8>
@@ -3633,7 +3560,7 @@
 							offset="0.00,0.00"
 							width="18"
 							height="18"
-							colour="#E4E052FF"
+							colour="#F5E41BFF"
 							tile="false"
 							x_flipped="false"
 							y_flipped="false"

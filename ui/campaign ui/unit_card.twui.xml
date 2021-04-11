@@ -3282,7 +3282,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_5>
@@ -3341,7 +3341,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_6>
@@ -3400,7 +3400,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_7>
@@ -3459,7 +3459,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key=""
+							ui_colour_preset_type_key="green"
 							shader_name=""/>
 					</imagemetrics>
 				</_8>
@@ -3504,7 +3504,7 @@
 							offset="0.00,0.00"
 							width="18"
 							height="18"
-							colour="#E4E052FF"
+							colour="#F5E41BFF"
 							tile="false"
 							x_flipped="false"
 							y_flipped="false"
