@@ -2843,7 +2843,7 @@
 			allowhorizontalresize="false"
 			allowverticalresize="false"
 			docking="Center"
-			dock_offset="-2.00,-1.00"
+			dock_offset="-2.00,-2.00"
 			component_anchor_point="0.00,0.00"
 			priority="30"
 			tooltipslocalised="true"
