@@ -68,7 +68,7 @@
 													<template_unit_card this="ABE480CA-2DB5-43A4-8AE210957C976B2F">
 														<gradient this="466E2D13-7E79-4E2B-98A9DC2DD342662A"/>
 														<element_icon this="E0315CF0-14BE-49F9-AFAE41227E847191">
-															<rank this="21A7BF49-5ED8-49DB-A8C63CDA816D191B"/>
+															<!-- <rank this="21A7BF49-5ED8-49DB-A8C63CDA816D191B"/> -->
 														</element_icon>
 														<label_num_entities this="8992F7F6-91B4-4994-93F1EB426D84A84B"/>
 														<mouseover_unit_parent this="525D83BD-F472-4046-84489CD47193D17C">
@@ -229,7 +229,7 @@
 													<template_unit_card this="2EBC2A18-0EBC-45F2-A8B28CBA235FFDCF">
 														<gradient this="DDD43C7F-DAD7-4BD0-9CA58765C0510D2B"/>
 														<element_icon this="9A2C0966-F3C2-40B4-AC3FB12687947CFC">
-															<rank this="CE21BC4C-DD0B-46BF-98CFC8E39F0414D8"/>
+															<!-- <rank this="CE21BC4C-DD0B-46BF-98CFC8E39F0414D8"/> -->
 														</element_icon>
 														<label_num_entities this="FB8979D4-9866-4E7E-B503F7637F6555DE"/>
 														<mouseover_unit_parent this="15A86700-329D-4164-83DA8F0EC083F8D5">
