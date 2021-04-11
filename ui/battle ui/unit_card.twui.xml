@@ -2885,8 +2885,8 @@
 			priority="30"
 			tooltipslocalised="true"
 			uniqueguid="2D3C92FB-A1A5-48FF-BEC2180A3E29759B"
-			currentstate="B9B52236-15A1-4B7D-85E206530E571618"
-			defaultstate="B9B52236-15A1-4B7D-85E206530E571618"
+			currentstate="B9B52236-15A1-4B7D-85E206530E571627"
+			defaultstate="B9B52236-15A1-4B7D-85E206530E571627"
 			comment="ScottB: Hides self if unit card gets scaled down to avoid overlap with label_num_entities">
 			<callbackwithcontextlist>
 				<callback_with_context
