@@ -510,33 +510,12 @@
 			locked="false"
 			marked_for_deletion="false"
 			comment="">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextColourSetter"
-					context_object_id="CcoBattleUnit"
-					context_function_id="AllianceColour">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="BattleLocalPlayerChanged"/>
-					</child_m_user_properties>
-				</callback_with_context>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="F9D2DA0D-EE16-47BF-A62BC2A50FEF4175"
-					uniqueguid="F9D2DA0D-EE16-47BF-A62BC2A50FEF4175"
-					imagepath="ui/skins/default/unit_cat_holder_round_fill.png"
-					width="174"
-					height="174"
-					canuse1bitalpha="false"/>
-			</componentimages>
 			<states>
 				<newstate
 					this="3A032B2D-BB6D-4E59-8C2FDC8B488FEC4C"
 					name="NewState"
-					width="174"
-					height="174"
+					width="18"
+					height="18"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -566,31 +545,7 @@
 					text_shader_name="normal_t0"
 					shadervars="0.00,0.00,0.00,0.00"
 					textshadervars="0.00,0.00,0.00,0.00"
-					uniqueguid="3A032B2D-BB6D-4E59-8C2FDC8B488FEC4C">
-					<imagemetrics>
-						<image
-							componentimage="F9D2DA0D-EE16-47BF-A62BC2A50FEF4175"
-							offset="0.00,0.00"
-							width="174"
-							height="174"
-							colour="#FFFFFFFF"
-							tile="false"
-							x_flipped="false"
-							y_flipped="false"
-							dockpoint="Center"
-							dock_offset="0.00,0.00"
-							canresizeheight="true"
-							canresizewidth="true"
-							pivot_point="0.00,0.00"
-							rotation_angle="0"
-							rotation_axis="0.00,0.00,1.00"
-							margin="0.00,0.00,0.00,0.00"
-							shadertechnique_vars="0.00,0.00,0.00,0.00"
-							isrelativeresize="false"
-							ui_colour_preset_type_key=""
-							shader_name=""/>
-					</imagemetrics>
-				</newstate>
+					uniqueguid="3A032B2D-BB6D-4E59-8C2FDC8B488FEC4C"/>
 			</states>
 		</cat_docker>
 		<cat_frame
@@ -4976,15 +4931,15 @@
 			template_id=""
 			part_of_template="false"
 			offset="0.00,0.00"
-			allowhorizontalresize="true"
-			allowverticalresize="false"
+			allowhorizontalresize="false"
+			allowverticalresize="true"
 			moveable="Immovable"
 			visible="true"
 			clipchildren="false"
 			clipimagestocomponent="false"
-			docking="Top Right"
+			docking="Bottom Center"
 			dock_offset="0.00,0.00"
-			component_anchor_point="1.00,0.00"
+			component_anchor_point="0.50,1.00"
 			priority="0"
 			useglobalclicks="false"
 			renderwhendragged="false"
@@ -5041,8 +4996,8 @@
 				<default
 					this="AB16AB99-F91F-4DCE-85FB7675126AC8F1"
 					name="default"
-					width="150"
-					height="50"
+					width="28"
+					height="28"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -5077,16 +5032,16 @@
 						<image
 							componentimage="1F8770F8-4566-4B9F-87912C47B5DD1348"
 							offset="0.00,0.00"
-							width="150"
-							height="50"
+							width="28"
+							height="28"
 							colour="#FF0000C8"
 							tile="false"
 							x_flipped="false"
 							y_flipped="false"
-							dockpoint="None"
+							dockpoint="Center"
 							dock_offset="0.00,0.00"
-							canresizeheight="false"
-							canresizewidth="true"
+							canresizeheight="true"
+							canresizewidth="false"
 							pivot_point="0.00,0.00"
 							rotation_angle="0"
 							rotation_axis="0.00,0.00,1.00"
@@ -5100,8 +5055,8 @@
 				<shattered
 					this="6452C61B-CAE8-4702-8F15A7A9675BC1E8"
 					name="shattered"
-					width="150"
-					height="50"
+					width="28"
+					height="28"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -5174,8 +5129,8 @@
 				<component_image
 					this="044A823C-F5A5-4F8E-AF19F5672723D8B7"
 					uniqueguid="044A823C-F5A5-4F8E-AF19F5672723D8B7"
-					imagepath="ui/skins/default/button_rectangular_backplate.png"
-					width="150"
+					imagepath="ui/skins/default/button_circle_ability_backplate.png"
+					width="50"
 					height="50"
 					canuse1bitalpha="false"/>
 			</componentimages>
@@ -5183,8 +5138,8 @@
 				<newstate
 					this="D0979758-ED3E-475C-BD3959FA2358A6BC"
 					name="NewState"
-					width="150"
-					height="50"
+					width="28"
+					height="28"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -5219,8 +5174,8 @@
 						<image
 							componentimage="044A823C-F5A5-4F8E-AF19F5672723D8B7"
 							offset="0.00,0.00"
-							width="150"
-							height="50"
+							width="28"
+							height="28"
 							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
