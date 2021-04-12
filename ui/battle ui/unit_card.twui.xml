@@ -2915,63 +2915,70 @@
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E276"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E276"
-					imagepath="ui/skins/default/experience_1.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_1.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E277"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E277"
-					imagepath="ui/skins/default/experience_2.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_2.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E278"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E278"
-					imagepath="ui/skins/default/experience_3.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_3.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E279"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E279"
-					imagepath="ui/skins/default/experience_4.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_4.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E280"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E280"
-					imagepath="ui/skins/default/experience_5.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_5.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E281"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E281"
-					imagepath="ui/skins/default/experience_6.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_6.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E282"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E282"
-					imagepath="ui/skins/default/experience_7.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_7.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E283"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E283"
-					imagepath="ui/skins/default/experience_8.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_8.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
 				<component_image
 					this="3AB07F03-09DD-4495-ACEA0A136522E284"
 					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E284"
-					imagepath="ui/skins/default/experience_9.png"
+					imagepath="ui/skins/default/stars_ui_card_rank_9.png"
+					width="18"
+					height="18"
+					canuse1bitalpha="false"/>
+				<component_image
+					this="3AB07F03-09DD-4495-ACEA0A136522E285"
+					uniqueguid="3AB07F03-09DD-4495-ACEA0A136522E285"
+					imagepath="ui/skins/default/stars_ui_card_rank_10.png"
 					width="18"
 					height="18"
 					canuse1bitalpha="false"/>
@@ -3338,7 +3345,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key="green"
+							ui_colour_preset_type_key=""
 							shader_name=""/>
 					</imagemetrics>
 				</_5>
@@ -3397,7 +3404,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key="green"
+							ui_colour_preset_type_key=""
 							shader_name=""/>
 					</imagemetrics>
 				</_6>
@@ -3456,7 +3463,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key="green"
+							ui_colour_preset_type_key=""
 							shader_name=""/>
 					</imagemetrics>
 				</_7>
@@ -3515,7 +3522,7 @@
 							margin="0.00,0.00,0.00,0.00"
 							shadertechnique_vars="0.00,0.00,0.00,0.00"
 							isrelativeresize="false"
-							ui_colour_preset_type_key="green"
+							ui_colour_preset_type_key=""
 							shader_name=""/>
 					</imagemetrics>
 				</_8>
@@ -3556,11 +3563,11 @@
 					uniqueguid="B9B52236-15A1-4B7D-85E206530E571627">
 					<imagemetrics>
 						<image
-							componentimage="3AB07F03-09DD-4495-ACEA0A136522E280"
+							componentimage="3AB07F03-09DD-4495-ACEA0A136522E285"
 							offset="0.00,0.00"
 							width="18"
 							height="18"
-							colour="#F5E41BFF"
+							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
 							y_flipped="false"
