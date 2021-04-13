@@ -32,7 +32,7 @@
 										<template_unit_card this="8A0696B7-83F3-409B-968ADFDDDFAA12E4">
 											<gradient this="C61690A8-13E1-484E-B4C18DCFBFC12034"/>
 											<element_icon this="BDBB0C8A-9732-463E-8930EAE8CBD537FF">
-												<rank this="2BE91A0B-087D-4719-B7262651DC815F70"/>
+												<!-- <rank this="2BE91A0B-087D-4719-B7262651DC815F70"/> -->
 											</element_icon>
 											<experience_holder this="40AB278A-8427-42D2-99C72DEF582C4AC6">
 												<experience this="77A0DDE3-34A8-4DA7-BA579B21D7424F89"/>
@@ -100,7 +100,7 @@
 										<template_unit_card this="59B837CA-018F-4159-9E2D6E924FFF5D89">
 											<gradient this="4EFD374C-A780-4B0C-898F3AFD4762169D"/>
 											<element_icon this="58EC71C7-251B-4CF6-A6677F57605353DC">
-												<rank this="C8F13944-8CED-43D8-B52DE2121D67D8EC"/>
+												<!-- <rank this="C8F13944-8CED-43D8-B52DE2121D67D8EC"/> -->
 											</element_icon>
 											<experience_holder this="EEA60AF1-1BFF-4143-B719C6B90AC16BE0">
 												<experience this="07ADF337-FFB7-46EC-A19EF1F79277B64E"/>

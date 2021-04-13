@@ -41,7 +41,7 @@
 												<unit_kills this="4061BF5F-9B89-48C0-808846FC5DE3B47B"/>
 											</individual_kills>
 											<element_icon this="DE717096-E324-40D2-99CEFC996B89C329">
-												<rank this="0DABE060-62AE-4C65-B612197D4DF188EE"/>
+												<!-- <rank this="0DABE060-62AE-4C65-B612197D4DF188EE"/> -->
 											</element_icon>
 											<label_num_entities this="D2F7E526-29B1-49FC-B69019B7FED0B72C"/>
 											<health_bar_parent this="72A83E50-B053-49FA-9EF689CDE9D11167">
@@ -109,7 +109,7 @@
 												<unit_kills this="0D0B1C27-4F90-469F-9353C16FEB213661"/>
 											</individual_kills>
 											<element_icon this="CBAF371A-E379-45E8-B040213FA0E03E9D">
-												<rank this="8BA25F34-0182-4F9C-B31A43DC37A743C6"/>
+												<!-- <rank this="8BA25F34-0182-4F9C-B31A43DC37A743C6"/> -->
 											</element_icon>
 											<label_num_entities this="0B3CB707-1847-494E-8682DF554B25CED9"/>
 											<health_bar_parent this="8016044F-71CF-4596-A9AC4AD6A6B7FAE3">

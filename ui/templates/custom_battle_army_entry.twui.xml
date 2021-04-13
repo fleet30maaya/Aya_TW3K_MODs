@@ -57,7 +57,7 @@
 								<template_unit_card this="D5814B3F-978D-4E08-B49435F049A6876C">
 									<gradient this="D4964329-5768-4E5D-9EFEA97B16110549"/>
 									<element_icon this="9CA7DFEB-5783-456E-BC736BC7936C90F7">
-										<rank this="08A14200-8558-4A93-A2FD6960E936396F"/>
+										<!-- <rank this="08A14200-8558-4A93-A2FD6960E936396F"/> -->
 									</element_icon>
 									<label_num_entities this="1B3B82BC-686F-4C05-9415931F46C889AC"/>
 									<mouseover_unit_parent this="B66B0812-51F9-4E2D-A0F0E4AB95387B58">
@@ -156,7 +156,7 @@
 								<template_unit_card this="3E3140DD-DEDB-4BF5-91D41214D457D106">
 									<gradient this="EA5517F0-987E-4604-86724FC14FE84348"/>
 									<element_icon this="45D4D857-823E-42BD-BEA6488CA4132E39">
-										<rank this="31611531-A085-455C-BA7F2032190BF2C4"/>
+										<!-- <rank this="31611531-A085-455C-BA7F2032190BF2C4"/> -->
 									</element_icon>
 									<label_num_entities this="ABC93166-AE45-4662-A6B376E6527AC196"/>
 									<mouseover_unit_parent this="D2880DE0-0F04-40C7-9EC687FACF81DDB6">
