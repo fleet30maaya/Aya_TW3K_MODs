@@ -40,6 +40,21 @@ CA 奇怪地修改了自己的 UI 脚本方法，以前正常运行的脚本现�
    │ ├─── unit_card_hero.twui.xml  战略面人物兵牌
    │ ├─── unit_card.twui.xml  战略面兵种兵牌
    │ └─── units_panel.twui.xml  招募面板
+   ├─┬─ loading_ui
+   │ ├─── battle.twui.xml  进入战斗界面
+   │ └─── postbattle.twui.xml  结束战斗界面
+   ├─┬─ skins
+   │ └─┬─ default
+   │   ├─── stars_ui_card_rank_1.png
+   │   ├─── stars_ui_card_rank_2.png
+   │   ├─── stars_ui_card_rank_3.png
+   │   ├─── stars_ui_card_rank_4.png
+   │   ├─── stars_ui_card_rank_5.png
+   │   ├─── stars_ui_card_rank_6.png
+   │   ├─── stars_ui_card_rank_7.png
+   │   ├─── stars_ui_card_rank_8.png
+   │   ├─── stars_ui_card_rank_9.png
+   │   └─── stars_ui_card_rank_10.png
    └─┬─ templates
      └─── custom_battle_army_entry.twui.xml  战前准备界面
 ```
