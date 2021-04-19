@@ -7,7 +7,11 @@
 		<root this="86198F8D-1FFB-4FF5-AFC96BF28FB31A8A">
 			<unit_id this="12FD8D8D-CD3F-4A1E-AEC1FDB42FF4A3A8">
 				<mouseover_bounds this="4395A646-77FA-4684-8D7D229907D038E2"/>
-				<flag this="8AB625CA-928E-816A-9274D029726BA827"/>
+				<flag_0 this="8AB625CA-928E-816A-9274D029726BA827"/>
+				<flag_1 this="8AB625CA-928E-816A-9274D029726BA828"/>
+				<flag_2 this="8AB625CA-928E-816A-9274D029726BA829"/>
+				<flag_3 this="8AB625CA-928E-816A-9274D029726BA830"/>
+				<flag_4 this="8AB625CA-928E-816A-9274D029726BA831"/>
 				<bobblehead_parent this="8FC83B0E-D4FE-4AD2-93FEA3AA7F6FF6BA">
 					<bobblehead_swirl_frame this="A2ABA0FA-3DE2-4249-AE0FCB7FA6920FEF">
 						<bobblehead_base this="9F5F921B-4BFE-44FB-9E56E57250035C10">
@@ -4128,9 +4132,9 @@
 				</selected>
 			</states>
 		</unit_portrait>
-		<flag
+		<flag_0
 			this="8AB625CA-928E-816A-9274D029726BA827"
-			id="flag"
+			id="flag_0"
 			template_id=""
 			part_of_template="false"
 			offset="0.00,0.00"
@@ -4143,7 +4147,7 @@
 			docking="Center"
 			dock_offset="0.00,40.00"
 			component_anchor_point="0.50,0.50"
-			priority="30"
+			priority="-1"
 			useglobalclicks="false"
 			renderwhendragged="false"
 			renderifroot="false"
@@ -4176,22 +4180,10 @@
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context
-					callback_id="ContextStateSetter"
+					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoBattleUnit"
-					context_function_id="HealthPercent">
+					context_function_id="HealthPercent &lt; 0.2">
 					<child_m_user_properties>
-						<property
-							name="threshold0"
-							value="0.2"/>
-						<property
-							name="threshold1"
-							value="0.4"/>
-						<property
-							name="threshold2"
-							value="0.7"/>
-						<property
-							name="threshold3"
-							value="0.9"/>
 						<property
 							name="update_constant"
 							value=""/>
@@ -4203,34 +4195,6 @@
 					this="88D6EE47-CB0A-4CC0-99B6770F396CF640"
 					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF640"
 					imagepath="ui/skins/default/stars_unit_flag_0.png"
-					width="41"
-					height="90"
-					canuse1bitalpha="false"/>
-				<component_image
-					this="88D6EE47-CB0A-4CC0-99B6770F396CF641"
-					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF641"
-					imagepath="ui/skins/default/stars_unit_flag_1.png"
-					width="41"
-					height="90"
-					canuse1bitalpha="false"/>
-				<component_image
-					this="88D6EE47-CB0A-4CC0-99B6770F396CF642"
-					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF642"
-					imagepath="ui/skins/default/stars_unit_flag_2.png"
-					width="41"
-					height="90"
-					canuse1bitalpha="false"/>
-				<component_image
-					this="88D6EE47-CB0A-4CC0-99B6770F396CF643"
-					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF643"
-					imagepath="ui/skins/default/stars_unit_flag_3.png"
-					width="41"
-					height="90"
-					canuse1bitalpha="false"/>
-				<component_image
-					this="88D6EE47-CB0A-4CC0-99B6770F396CF644"
-					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF644"
-					imagepath="ui/skins/default/stars_unit_flag_4.png"
 					width="41"
 					height="90"
 					canuse1bitalpha="false"/>
@@ -4266,14 +4230,14 @@
 					disabled="false"
 					pixelcollision="false"
 					material_name=""
-					shader_name="set_greyscale_t0"
+					shader_name="normal_t0"
 					text_shader_name="normal_t0"
 					shadervars="0.00,1.00,0.00,0.00"
 					textshadervars="0.00,0.00,0.00,0.00"
 					uniqueguid="7D0CB787-111A-46D8-BC215A5145532535">
 					<imagemetrics>
 						<image
-							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF644"
+							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF640"
 							offset="0.00,0.00"
 							width="41"
 							height="90"
@@ -4330,78 +4294,664 @@
 					shadervars="0.00,1.00,0.00,0.00"
 					textshadervars="0.00,0.00,0.00,0.00"
 					uniqueguid="7D0CB787-111A-46D8-BC215A5145532535"/>
-				<_0
-					this="7D0CB787-111A-46D8-BC215A5145532530"
-					name="0"
+			</states>
+		</flag_0>
+		<flag_1
+			this="8AB625CA-928E-816A-9274D029726BA828"
+			id="flag_1"
+			template_id=""
+			part_of_template="false"
+			offset="0.00,0.00"
+			allowhorizontalresize="false"
+			allowverticalresize="false"
+			moveable="Immovable"
+			visible="true"
+			clipchildren="false"
+			clipimagestocomponent="false"
+			docking="Center"
+			dock_offset="0.00,40.00"
+			component_anchor_point="0.50,0.50"
+			priority="-1"
+			useglobalclicks="false"
+			renderwhendragged="false"
+			renderifroot="false"
+			renderlastonfocused="false"
+			tooltipslocalised="true"
+			componentleveltooltip=""
+			tooltiplabel=""
+			soundcategory=""
+			layouttransition=""
+			uniqueguid="8AB625CA-928E-816A-9274D029726BA828"
+			updatewhennotvisible="false"
+			isaspectratiolocked="false"
+			isrelativeresize="false"
+			fontscale="1"
+			maskimage="00000000-0000-0000-0000000000000000"
+			currentstate="7D0CB787-111A-46D8-BC215A5145532537"
+			defaultstate="7D0CB787-111A-46D8-BC215A5145532537"
+			locked="false"
+			marked_for_deletion="false"
+			comment="">
+			<callbackwithcontextlist>
+				<callback_with_context
+					callback_id="ContextColourSetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="AllianceColour">
+					<child_m_user_properties>
+						<property
+							name="event0"
+							value="BattleLocalPlayerChanged"/>
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context
+					callback_id="ContextVisibilitySetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="HealthPercent &gt;= 0.2 &amp;&amp; HealthPercent &lt; 0.4">
+					<child_m_user_properties>
+						<property
+							name="update_constant"
+							value=""/>
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image
+					this="88D6EE47-CB0A-4CC0-99B6770F396CF641"
+					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF641"
+					imagepath="ui/skins/default/stars_unit_flag_1.png"
 					width="41"
 					height="90"
-					texthbehaviour="Never split"
-					uniqueguid="7D0CB787-111A-46D8-BC215A5145532530">
-					<imagemetrics>
-						<image
-							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF640"
-							width="41"
-							height="90"/>
-					</imagemetrics>
-				</_0>
-				<_1
-					this="7D0CB787-111A-46D8-BC215A5145532531"
-					name="1"
+					canuse1bitalpha="false"/>
+			</componentimages>
+			<states>
+				<default
+					this="7D0CB787-111A-46D8-BC215A5145532537"
+					name="default"
 					width="41"
 					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
 					texthbehaviour="Never split"
-					uniqueguid="7D0CB787-111A-46D8-BC215A5145532531">
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="normal_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532537">
 					<imagemetrics>
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF641"
+							offset="0.00,0.00"
 							width="41"
-							height="90"/>
+							height="90"
+							colour="#FFFFFFFF"
+							tile="false"
+							x_flipped="false"
+							y_flipped="false"
+							dockpoint="Center"
+							dock_offset="0.00,0.00"
+							canresizeheight="true"
+							canresizewidth="false"
+							pivot_point="0.00,0.00"
+							rotation_angle="0"
+							rotation_axis="0.00,0.00,1.00"
+							margin="0.00,0.00,0.00,0.00"
+							shadertechnique_vars="0.00,0.00,0.00,0.00"
+							isrelativeresize="false"
+							ui_colour_preset_type_key=""
+							shader_name=""/>
 					</imagemetrics>
-				</_1>
-				<_2
-					this="7D0CB787-111A-46D8-BC215A5145532532"
-					name="2"
+				</default>
+				<shattered
+					this="7D0CB787-111A-46D8-BC215A5145532538"
+					name="shattered"
 					width="41"
 					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
 					texthbehaviour="Never split"
-					uniqueguid="7D0CB787-111A-46D8-BC215A5145532532">
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="set_greyscale_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532538"/>
+			</states>
+		</flag_1>
+		<flag_2
+			this="8AB625CA-928E-816A-9274D029726BA829"
+			id="flag_2"
+			template_id=""
+			part_of_template="false"
+			offset="0.00,0.00"
+			allowhorizontalresize="false"
+			allowverticalresize="false"
+			moveable="Immovable"
+			visible="true"
+			clipchildren="false"
+			clipimagestocomponent="false"
+			docking="Center"
+			dock_offset="0.00,40.00"
+			component_anchor_point="0.50,0.50"
+			priority="-1"
+			useglobalclicks="false"
+			renderwhendragged="false"
+			renderifroot="false"
+			renderlastonfocused="false"
+			tooltipslocalised="true"
+			componentleveltooltip=""
+			tooltiplabel=""
+			soundcategory=""
+			layouttransition=""
+			uniqueguid="8AB625CA-928E-816A-9274D029726BA829"
+			updatewhennotvisible="false"
+			isaspectratiolocked="false"
+			isrelativeresize="false"
+			fontscale="1"
+			maskimage="00000000-0000-0000-0000000000000000"
+			currentstate="7D0CB787-111A-46D8-BC215A5145532539"
+			defaultstate="7D0CB787-111A-46D8-BC215A5145532539"
+			locked="false"
+			marked_for_deletion="false"
+			comment="">
+			<callbackwithcontextlist>
+				<callback_with_context
+					callback_id="ContextColourSetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="AllianceColour">
+					<child_m_user_properties>
+						<property
+							name="event0"
+							value="BattleLocalPlayerChanged"/>
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context
+					callback_id="ContextVisibilitySetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="HealthPercent &gt;= 0.4 &amp;&amp; HealthPercent &lt; 0.7">
+					<child_m_user_properties>
+						<property
+							name="update_constant"
+							value=""/>
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image
+					this="88D6EE47-CB0A-4CC0-99B6770F396CF642"
+					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF642"
+					imagepath="ui/skins/default/stars_unit_flag_2.png"
+					width="41"
+					height="90"
+					canuse1bitalpha="false"/>
+			</componentimages>
+			<states>
+				<default
+					this="7D0CB787-111A-46D8-BC215A5145532539"
+					name="default"
+					width="41"
+					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
+					texthbehaviour="Never split"
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="normal_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532539">
 					<imagemetrics>
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF642"
+							offset="0.00,0.00"
 							width="41"
-							height="90"/>
+							height="90"
+							colour="#FFFFFFFF"
+							tile="false"
+							x_flipped="false"
+							y_flipped="false"
+							dockpoint="Center"
+							dock_offset="0.00,0.00"
+							canresizeheight="true"
+							canresizewidth="false"
+							pivot_point="0.00,0.00"
+							rotation_angle="0"
+							rotation_axis="0.00,0.00,1.00"
+							margin="0.00,0.00,0.00,0.00"
+							shadertechnique_vars="0.00,0.00,0.00,0.00"
+							isrelativeresize="false"
+							ui_colour_preset_type_key=""
+							shader_name=""/>
 					</imagemetrics>
-				</_2>
-				<_3
-					this="7D0CB787-111A-46D8-BC215A5145532533"
-					name="3"
+				</default>
+				<shattered
+					this="7D0CB787-111A-46D8-BC215A5145532540"
+					name="shattered"
 					width="41"
 					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
 					texthbehaviour="Never split"
-					uniqueguid="7D0CB787-111A-46D8-BC215A5145532533">
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="set_greyscale_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532540"/>
+			</states>
+		</flag_2>
+		<flag_3
+			this="8AB625CA-928E-816A-9274D029726BA830"
+			id="flag_3"
+			template_id=""
+			part_of_template="false"
+			offset="0.00,0.00"
+			allowhorizontalresize="false"
+			allowverticalresize="false"
+			moveable="Immovable"
+			visible="true"
+			clipchildren="false"
+			clipimagestocomponent="false"
+			docking="Center"
+			dock_offset="0.00,40.00"
+			component_anchor_point="0.50,0.50"
+			priority="-1"
+			useglobalclicks="false"
+			renderwhendragged="false"
+			renderifroot="false"
+			renderlastonfocused="false"
+			tooltipslocalised="true"
+			componentleveltooltip=""
+			tooltiplabel=""
+			soundcategory=""
+			layouttransition=""
+			uniqueguid="8AB625CA-928E-816A-9274D029726BA830"
+			updatewhennotvisible="false"
+			isaspectratiolocked="false"
+			isrelativeresize="false"
+			fontscale="1"
+			maskimage="00000000-0000-0000-0000000000000000"
+			currentstate="7D0CB787-111A-46D8-BC215A5145532541"
+			defaultstate="7D0CB787-111A-46D8-BC215A5145532541"
+			locked="false"
+			marked_for_deletion="false"
+			comment="">
+			<callbackwithcontextlist>
+				<callback_with_context
+					callback_id="ContextColourSetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="AllianceColour">
+					<child_m_user_properties>
+						<property
+							name="event0"
+							value="BattleLocalPlayerChanged"/>
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context
+					callback_id="ContextVisibilitySetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="HealthPercent &gt;= 0.7 &amp;&amp; HealthPercent &lt; 0.9">
+					<child_m_user_properties>
+						<property
+							name="update_constant"
+							value=""/>
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image
+					this="88D6EE47-CB0A-4CC0-99B6770F396CF643"
+					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF643"
+					imagepath="ui/skins/default/stars_unit_flag_3.png"
+					width="41"
+					height="90"
+					canuse1bitalpha="false"/>
+			</componentimages>
+			<states>
+				<default
+					this="7D0CB787-111A-46D8-BC215A5145532541"
+					name="default"
+					width="41"
+					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
+					texthbehaviour="Never split"
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="normal_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532541">
 					<imagemetrics>
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF643"
+							offset="0.00,0.00"
 							width="41"
-							height="90"/>
+							height="90"
+							colour="#FFFFFFFF"
+							tile="false"
+							x_flipped="false"
+							y_flipped="false"
+							dockpoint="Center"
+							dock_offset="0.00,0.00"
+							canresizeheight="true"
+							canresizewidth="false"
+							pivot_point="0.00,0.00"
+							rotation_angle="0"
+							rotation_axis="0.00,0.00,1.00"
+							margin="0.00,0.00,0.00,0.00"
+							shadertechnique_vars="0.00,0.00,0.00,0.00"
+							isrelativeresize="false"
+							ui_colour_preset_type_key=""
+							shader_name=""/>
 					</imagemetrics>
-				</_3>
-				<_4
-					this="7D0CB787-111A-46D8-BC215A5145532534"
-					name="4"
+				</default>
+				<shattered
+					this="7D0CB787-111A-46D8-BC215A5145532542"
+					name="shattered"
 					width="41"
 					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
 					texthbehaviour="Never split"
-					uniqueguid="7D0CB787-111A-46D8-BC215A5145532534">
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="set_greyscale_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532542"/>
+			</states>
+		</flag_3>
+		<flag_4
+			this="8AB625CA-928E-816A-9274D029726BA831"
+			id="flag_4"
+			template_id=""
+			part_of_template="false"
+			offset="0.00,0.00"
+			allowhorizontalresize="false"
+			allowverticalresize="false"
+			moveable="Immovable"
+			visible="true"
+			clipchildren="false"
+			clipimagestocomponent="false"
+			docking="Center"
+			dock_offset="0.00,40.00"
+			component_anchor_point="0.50,0.50"
+			priority="-1"
+			useglobalclicks="false"
+			renderwhendragged="false"
+			renderifroot="false"
+			renderlastonfocused="false"
+			tooltipslocalised="true"
+			componentleveltooltip=""
+			tooltiplabel=""
+			soundcategory=""
+			layouttransition=""
+			uniqueguid="8AB625CA-928E-816A-9274D029726BA831"
+			updatewhennotvisible="false"
+			isaspectratiolocked="false"
+			isrelativeresize="false"
+			fontscale="1"
+			maskimage="00000000-0000-0000-0000000000000000"
+			currentstate="7D0CB787-111A-46D8-BC215A5145532543"
+			defaultstate="7D0CB787-111A-46D8-BC215A5145532543"
+			locked="false"
+			marked_for_deletion="false"
+			comment="">
+			<callbackwithcontextlist>
+				<callback_with_context
+					callback_id="ContextColourSetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="AllianceColour">
+					<child_m_user_properties>
+						<property
+							name="event0"
+							value="BattleLocalPlayerChanged"/>
+					</child_m_user_properties>
+				</callback_with_context>
+				<callback_with_context
+					callback_id="ContextVisibilitySetter"
+					context_object_id="CcoBattleUnit"
+					context_function_id="HealthPercent &gt;= 0.9">
+					<child_m_user_properties>
+						<property
+							name="update_constant"
+							value=""/>
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image
+					this="88D6EE47-CB0A-4CC0-99B6770F396CF644"
+					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF644"
+					imagepath="ui/skins/default/stars_unit_flag_4.png"
+					width="41"
+					height="90"
+					canuse1bitalpha="false"/>
+			</componentimages>
+			<states>
+				<default
+					this="7D0CB787-111A-46D8-BC215A5145532543"
+					name="default"
+					width="41"
+					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
+					texthbehaviour="Never split"
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="normal_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532543">
 					<imagemetrics>
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF644"
+							offset="0.00,0.00"
 							width="41"
-							height="90"/>
+							height="90"
+							colour="#FFFFFFFF"
+							tile="false"
+							x_flipped="false"
+							y_flipped="false"
+							dockpoint="Center"
+							dock_offset="0.00,0.00"
+							canresizeheight="true"
+							canresizewidth="false"
+							pivot_point="0.00,0.00"
+							rotation_angle="0"
+							rotation_axis="0.00,0.00,1.00"
+							margin="0.00,0.00,0.00,0.00"
+							shadertechnique_vars="0.00,0.00,0.00,0.00"
+							isrelativeresize="false"
+							ui_colour_preset_type_key=""
+							shader_name=""/>
 					</imagemetrics>
-				</_4>
+				</default>
+				<shattered
+					this="7D0CB787-111A-46D8-BC215A5145532544"
+					name="shattered"
+					width="41"
+					height="90"
+					text=""
+					tooltip=""
+					textvalign="Top"
+					texthalign="Left"
+					textxoffset="0.00,0.00"
+					textyoffset="0.00,0.00"
+					texthbehaviour="Never split"
+					textlocalised="false"
+					textlabel=""
+					tooltiplabel=""
+					imagedock9patch="false"
+					blockedanims=""
+					soundcategory=""
+					font_m_font_name="FiraSans-Regular"
+					font_m_size="10"
+					font_m_colour="#FADADDFF"
+					font_m_leading="2"
+					font_m_tracking="0"
+					fontcat_name="Default Font Category"
+					focustype="None"
+					stateeditordisplaypos="0.00,0.00"
+					interactive="false"
+					disabled="false"
+					pixelcollision="false"
+					material_name=""
+					shader_name="set_greyscale_t0"
+					text_shader_name="normal_t0"
+					shadervars="0.00,1.00,0.00,0.00"
+					textshadervars="0.00,0.00,0.00,0.00"
+					uniqueguid="7D0CB787-111A-46D8-BC215A5145532544"/>
 			</states>
-		</flag>
+		</flag_4>
 		<icon_health
 			this="26474913-BF00-467B-91CB2F6CD3ABB3F6"
 			id="icon_health"
