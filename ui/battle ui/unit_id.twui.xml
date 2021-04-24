@@ -4195,16 +4195,16 @@
 					this="88D6EE47-CB0A-4CC0-99B6770F396CF640"
 					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF640"
 					imagepath="ui/skins/default/stars_unit_flag_0.png"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					canuse1bitalpha="false"/>
 			</componentimages>
 			<states>
 				<default
 					this="7D0CB787-111A-46D8-BC215A5145532535"
 					name="default"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4239,8 +4239,8 @@
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF640"
 							offset="0.00,0.00"
-							width="41"
-							height="90"
+							width="48"
+							height="105"
 							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
@@ -4262,8 +4262,8 @@
 				<shattered
 					this="7D0CB787-111A-46D8-BC215A5145532536"
 					name="shattered"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4359,16 +4359,16 @@
 					this="88D6EE47-CB0A-4CC0-99B6770F396CF641"
 					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF641"
 					imagepath="ui/skins/default/stars_unit_flag_1.png"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					canuse1bitalpha="false"/>
 			</componentimages>
 			<states>
 				<default
 					this="7D0CB787-111A-46D8-BC215A5145532537"
 					name="default"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4403,8 +4403,8 @@
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF641"
 							offset="0.00,0.00"
-							width="41"
-							height="90"
+							width="48"
+							height="105"
 							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
@@ -4426,8 +4426,8 @@
 				<shattered
 					this="7D0CB787-111A-46D8-BC215A5145532538"
 					name="shattered"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4523,16 +4523,16 @@
 					this="88D6EE47-CB0A-4CC0-99B6770F396CF642"
 					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF642"
 					imagepath="ui/skins/default/stars_unit_flag_2.png"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					canuse1bitalpha="false"/>
 			</componentimages>
 			<states>
 				<default
 					this="7D0CB787-111A-46D8-BC215A5145532539"
 					name="default"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4567,8 +4567,8 @@
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF642"
 							offset="0.00,0.00"
-							width="41"
-							height="90"
+							width="48"
+							height="105"
 							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
@@ -4590,8 +4590,8 @@
 				<shattered
 					this="7D0CB787-111A-46D8-BC215A5145532540"
 					name="shattered"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4687,16 +4687,16 @@
 					this="88D6EE47-CB0A-4CC0-99B6770F396CF643"
 					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF643"
 					imagepath="ui/skins/default/stars_unit_flag_3.png"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					canuse1bitalpha="false"/>
 			</componentimages>
 			<states>
 				<default
 					this="7D0CB787-111A-46D8-BC215A5145532541"
 					name="default"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4731,8 +4731,8 @@
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF643"
 							offset="0.00,0.00"
-							width="41"
-							height="90"
+							width="48"
+							height="105"
 							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
@@ -4754,8 +4754,8 @@
 				<shattered
 					this="7D0CB787-111A-46D8-BC215A5145532542"
 					name="shattered"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4851,16 +4851,16 @@
 					this="88D6EE47-CB0A-4CC0-99B6770F396CF644"
 					uniqueguid="88D6EE47-CB0A-4CC0-99B6770F396CF644"
 					imagepath="ui/skins/default/stars_unit_flag_4.png"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					canuse1bitalpha="false"/>
 			</componentimages>
 			<states>
 				<default
 					this="7D0CB787-111A-46D8-BC215A5145532543"
 					name="default"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
@@ -4895,8 +4895,8 @@
 						<image
 							componentimage="88D6EE47-CB0A-4CC0-99B6770F396CF644"
 							offset="0.00,0.00"
-							width="41"
-							height="90"
+							width="48"
+							height="105"
 							colour="#FFFFFFFF"
 							tile="false"
 							x_flipped="false"
@@ -4918,8 +4918,8 @@
 				<shattered
 					this="7D0CB787-111A-46D8-BC215A5145532544"
 					name="shattered"
-					width="41"
-					height="90"
+					width="48"
+					height="105"
 					text=""
 					tooltip=""
 					textvalign="Top"
